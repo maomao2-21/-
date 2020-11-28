@@ -1,0 +1,267 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?s7tqud');
+    src: url('../fonts/icomoon.eot?s7tqud#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?s7tqud') format('truetype'), url('../fonts/icomoon.woff?s7tqud') format('woff'), url('../fonts/icomoon.svg?s7tqud#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.main {
+    position: absolute;
+    left: 220px;
+    top: 12px;
+    width: 980px;
+    height: 455px;
+}
+
+.main .focus {
+    float: left;
+    width: 721px;
+    height: 455px;
+    background-image: url("../images/datu.png");
+    background-repeat: no-repeat;
+}
+
+.main .newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+
+.news {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+
+.news-hd {
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.news-hd a {
+    margin-left: 110px;
+}
+
+.news-hd::before {
+    content: '品优购快报';
+    margin-left: 20px;
+}
+
+.news-hd ::after {
+    padding: 0 5px;
+    font-family: 'icomoon';
+    content: '\e902';
+}
+
+.news-bd {
+    padding: 5px 15px 0;
+}
+
+.news-bd li {
+    height: 24px;
+    line-height: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.lifeservice {
+    height: 209px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+    overflow: hidden;
+}
+
+.lifeservice ul {
+    width: 258px;
+}
+
+.lifeservice ul li {
+    float: left;
+    width: 63px;
+    height: 71px;
+    line-height: 71px;
+    text-align: center;
+    border-right: solid 1px #e4e4e4;
+    border-bottom: solid 1px #e4e4e4;
+}
+
+.lifeservice ul li i {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    margin-top: 12px;
+    background: url("../images/icons.png") no-repeat -19px -15px;
+}
+
+.main .adv {
+    margin-top: 6px;
+}
+
+.lifeservice ul li:nth-child(2) {
+    position: relative;
+}
+
+.lifeservice ul li img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.recom {
+    height: 163px;
+    margin-top: 10px;
+    background-color: skyblue;
+}
+
+.recom-left {
+    float: left;
+    width: 207px;
+    height: 163px;
+    background: url(../images/tuijian.png);
+}
+
+.recom-right {
+    float: left;
+    width: 993px;
+    height: 163px;
+    background-color: snow;
+}
+
+.recom-right ul {
+    width: 996px;
+}
+
+.recom-right ul li {
+    position: relative;
+    float: left;
+    width: 248px;
+    height: 163px;
+}
+
+.recom-right ul li::after {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    content: '';
+    width: 1px;
+    height: 145px;
+    background-color: #ddd;
+}
+
+body .box_hd {
+    height: 30px;
+    margin-top: 10px;
+    line-height: 30px;
+    border-bottom: 2px solid red;
+}
+
+.box_hd .box-left {
+    float: left;
+    color: #c81623;
+    font-size: 18px;
+}
+
+.tab-list ul {
+    margin-left: 490px;
+}
+
+.tab-list ul li {
+    float: left;
+    margin-left: 16px;
+    color: #666666;
+}
+
+.tab-list ul li:nth-child(-n+8)::after {
+    content: '|';
+    margin-left: 16px;
+}
+
+.tab_list_item {
+    height: 360px;
+    /* background-color: rosybrown; */
+}
+
+.w212 {
+    position: relative;
+    float: left;
+    width: 212px;
+    background-color: #f9f9f9;
+}
+
+.w212-shang,
+ul {
+    height: 90px;
+}
+
+.w212-shang ul li {
+    margin: 0 11px;
+    float: left;
+    width: 84px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    text-align: center;
+    color: #666666;
+    border-bottom: 1px solid #ededed;
+}
+
+.w212-xia img {
+    padding: 73px 0 0 30px;
+}
+
+.w330 {
+    float: left;
+    width: 330px;
+    height: 360px;
+}
+
+.w220 {
+    float: left;
+    width: 220px;
+    height: 360px;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.w220 img {
+    padding-left: 15px;
+    padding-top: 22px;
+}
+
+.w220 .di {
+    border-bottom: 1px solid;
+}
+
+.four {
+    padding: 70px 25px 0 25px;
+    float: left;
+    width: 220px;
+    height: 360px;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.w220-1 {
+    float: left;
+    width: 218px;
+    height: 360px;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.w220-1 img {
+    padding-left: 9px;
+    padding-top: 22px;
+}
+
+.w220-1 .di {
+    border-bottom: 1px solid;
+}
